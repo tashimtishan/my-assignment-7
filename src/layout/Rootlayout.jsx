@@ -1,13 +1,16 @@
 import { Outlet } from "react-router";
 import Navbar from "../Components/shared/Navbar";
+import Footer from "../Components/shared/Footer";
 
 
 const Rootlayout = () => {
     return (
-        <div>
+        <div className="bg-[#F8FAFC]">
            <Navbar></Navbar>
+           <main>
             <Outlet></Outlet>
-            <h3>Footer</h3>
+           </main>
+            <Footer></Footer>
         </div>
     );
 };

@@ -1,8 +1,10 @@
+import Banner from "../../Components/shared/Banner/Banner";
+
 const HomePage = () => {
     return (
-        <div>
-        <h2>Homepage</h2>            
-        </div>
+       <section>
+        <Banner></Banner>
+       </section>
     );
 };
 
