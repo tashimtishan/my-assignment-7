@@ -3,7 +3,7 @@ const Footer = () => {
       <footer className="bg-[#244D3F] p-5">
      <div className="max-w-277.5 mx-auto text-center">
            <div>
-        <h1 className="text-5xl font-bold text-white mb-5 mt-9">KeenKeeper</h1>
+        <h1 className="text-5xl font-bold text-white mb-5 mt-9">Keen<span className="font-semibold">Keeper</span></h1>
         <p className="text-gray-300 mb-5">Your personal shelf of meaningful connections. Browse, tend, and nurture the relationships that matter most.</p>
         </div>
         <div>
