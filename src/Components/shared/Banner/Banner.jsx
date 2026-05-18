@@ -26,6 +26,7 @@ const Banner = () => {
             <p className="text-[#64748B] whitespace-nowrap">Interactions This Month</p>
             </div>
             </div>
+            <hr className="mt-8 text-[#E9E9E9]"/>
         </section>
     );
 };

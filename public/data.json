@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Alex Johnson",
+    "picture": "/img.png",
+    "email": "alex.johnson@gmail.com",
+    "days_since_contact": 20,
+    "status": "overdue",
+    "tags": ["college", "close friend"],
+    "bio": "Met in university. Love hiking together on weekends.",
+    "goal": 14,
+    "next_due_date": "2026-05-10"
+  },
+  {
+    "id": 2,
+    "name": "Sarah Chen",
+    "picture": "/img2.png",
+    "email": "sarah.chen@gmail.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["work", "mentor"],
+    "bio": "My manager at first job. Taught me everything about design.",
+    "goal": 14,
+    "next_due_date": "2026-05-20"
+  },
+  {
+    "id": 3,
+    "name": "Marcus Johnson",
+    "picture": "/img3.png",
+    "email": "marcus.j@gmail.com",
+    "days_since_contact": 10,
+    "status": "almost due",
+    "tags": ["college", "travel"],
+    "bio": "Travelled across Southeast Asia together. Best memories.",
+    "goal": 14,
+    "next_due_date": "2026-05-19"
+  },
+  {
+    "id": 4,
+    "name": "Aisha Patel",
+    "picture": "/img4.png",
+    "email": "aisha.patel@outlook.com",
+    "days_since_contact": 30,
+    "status": "overdue",
+    "tags": ["family", "close friend"],
+    "bio": "Childhood friend. Grew up on the same street.",
+    "goal": 14,
+    "next_due_date": "2026-04-30"
+  },
+  {
+    "id": 5,
+    "name": "Ryan O'Brien",
+    "picture": "/img5.png",
+    "email": "ryan.obrien@gmail.com",
+    "days_since_contact": 3,
+    "status": "on-track",
+    "tags": ["work", "hobby"],
+    "bio": "Gym buddy turned close friend. Always motivating.",
+    "goal": 7,
+    "next_due_date": "2026-05-21"
+  },
+  {
+    "id": 6,
+    "name": "Olivia Martinez",
+    "picture": "/img6.png",
+    "email": "olivia.m@gmail.com",
+    "days_since_contact": 12,
+    "status": "almost due",
+    "tags": ["college", "hobby"],
+    "bio": "Book club friend. We share the same taste in fiction.",
+    "goal": 14,
+    "next_due_date": "2026-05-22"
+  },
+  {
+    "id": 7,
+    "name": "Tom Baker",
+    "picture": "/img7.png",
+    "email": "tom.baker@gmail.com",
+    "days_since_contact": 45,
+    "status": "overdue",
+    "tags": ["work", "close friend"],
+    "bio": "Former colleague. Built our first product together.",
+    "goal": 30,
+    "next_due_date": "2026-04-15"
+  },
+  {
+    "id": 8,
+    "name": "Lisa Nakamura",
+    "picture": "/img8.png",
+    "email": "lisa.nakamura@gmail.com",
+    "days_since_contact": 8,
+    "status": "on-track",
+    "tags": ["family", "travel"],
+    "bio": "Cousin who lives abroad. We video call every week.",
+    "goal": 14,
+    "next_due_date": "2026-05-24"
+  }
+]
