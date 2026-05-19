@@ -10,7 +10,7 @@ const Banner = () => {
             </div>
             <div className="parent-div flex items-center justify-center gap-5">
             <div className="w-56 h-28 p-8 shadow-lg rounded-lg">
-            <span className="text-[#244D3F] font-semibold text-3xl">10</span>
+            <span className="text-[#244D3F] font-semibold text-3xl">8</span>
             <p className="text-[#64748B]">Total Friends</p>
             </div>
             <div className="w-56 h-28 p-8 shadow-lg rounded-lg">
@@ -18,7 +18,7 @@ const Banner = () => {
             <p className="text-[#64748B]">On Track</p>
             </div>
             <div className="w-56 h-28 p-8 shadow-lg rounded-lg">
-            <span className="text-[#244D3F] font-semibold text-3xl">6</span>
+            <span className="text-[#244D3F] font-semibold text-3xl">5</span>
             <p className="text-[#64748B]">Need Attention</p>
             </div>
             <div className="w-56 h-28 p-8 shadow-lg rounded-lg flex flex-col justify-center">

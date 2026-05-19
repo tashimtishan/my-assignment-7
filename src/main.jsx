@@ -8,8 +8,9 @@ import HomePage from './Pages/Homepage/HomePage';
 import FriendsDetailsPage from './Pages/Homepage/FriendsDetailsPage/FriendsDetailsPage';
 import Timeline from './Pages/Homepage/Timeline/Timeline';
 import FriendsAnalyticspage from './Pages/Homepage/FriendsAnalyticspage/FriendsAnalyticspage';
-
-
+import { TimelineProvider } from './Components/shared/Timelinecontext';
+import { ToastContainer} from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 const rounter=createBrowserRouter([
   {
     path:"/",
@@ -20,7 +21,7 @@ const rounter=createBrowserRouter([
       element:<HomePage></HomePage>
     },
     {
-      path:"/FriendsDetailsPage",
+      path:"/friends/:id",
       element:<FriendsDetailsPage></FriendsDetailsPage>
     },
     {
@@ -37,6 +38,9 @@ const rounter=createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-  <RouterProvider router={rounter}></RouterProvider>
+   <TimelineProvider>
+    <ToastContainer />
+      <RouterProvider router={rounter}></RouterProvider>
+    </TimelineProvider>
   </StrictMode>,
 )
