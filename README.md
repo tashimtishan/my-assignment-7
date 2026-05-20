@@ -1,16 +1,21 @@
-# React + Vite
+KeenKeeper
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+We all have people in our lives we care about but somehow keep losing touch with. KeenKeeper is a personal friend relationship tracker that helps you stay on top of that. You can see all your friends in one place, track when you last contacted them, log interactions, and get a clear picture of whos getting attention and whos being neglected. Built this as part of a front-end assignment but honestly its a pretty useful concept.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Technologies Used
 
-## React Compiler
+React.js
+React Router DOM
+Tailwind CSS + DaisyUI
+Recharts
+React Toastify
+Vite
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Key Features
 
-## Expanding the ESLint configuration
+1.friend Cards with status: All your friends are displayed as cards showing their photo, tags, days since last contact, and a color coded status(on-track, almost due, or overdue).Makes it really easy to see at a glance whos been ignored for too long.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2.quick check-in logging: From any friends detail page you can log a Call, Text, or Video interaction with one click. It gets added to the timeline instantly and a toast notification confirms it went through.
+
+3.interaction timeline: A dedicated timeline page shows the full history of all your interactions across every friend. You can filter by interaction type to see only calls, texts, or videos.
