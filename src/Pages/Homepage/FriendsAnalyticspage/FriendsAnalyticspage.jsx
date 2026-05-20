@@ -14,12 +14,12 @@ const FriendsAnalyticspage = () => {
       { name: "Video", value: videoCount||1,fill:"#4ADE80"},
      ];
     return (
-      <section className="max-w-277.5 mx-auto mt-10 mb-20">
+      <section className="max-w-277.5 mx-auto mt-10 mb-20 px-4">
       <h2 className="text-4xl font-bold mb-6">Friendship Analytics</h2>
       <div className="bg-white shadow-md rounded-md p-6">
         <p className="text-lg text-[#244D3F] mb-4 font-bold">By Interaction Type</p>
-        <div className="flex justify-center">
-          <PieChart width={300} height={300}>
+        <div className="flex justify-center overflow-x-auto">
+          <PieChart width={Math.min(300, window.innerWidth-80)} height={300}>
           <Pie data={data}innerRadius={80}outerRadius={120}paddingAngle={5}dataKey="value">
               {data.map((entry, index)=>(<Cell key={index} fill={entry.fill} />))}
             </Pie>

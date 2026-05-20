@@ -12,8 +12,8 @@ const FriendsDetailsPage = () => {
   const friend=Friends.find(f=>f.id===Number(id));
   const { addEntry } = useTimeline();
     return (
-        <section className="max-w-277.5 mx-auto mt-20 mb-20">
-          <div className="grid grid-cols-3 gap-4">
+        <section className="max-w-277.5 mx-auto mt-20 mb-20 p-5">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div className="space-y-4">
               <div className="p-10 shadow-md flex flex-col items-center justify-center text-center bg-white rounded-md">
                 <img src={friend.picture} className="mb-2" alt="" />
@@ -37,7 +37,7 @@ const FriendsDetailsPage = () => {
                 <h2>Delete</h2>
               </div>
             </div>
-            <div className="col-span-2">
+            <div className="col-span-1 md:col-span-2">
               <div className="grid grid-cols-3 gap-4">
                 <div className="shadow-md bg-white rounded-md p-6 text-center">
                <p className="text-2xl font-bold text-[#244D3F]">{friend.days_since_contact}</p>

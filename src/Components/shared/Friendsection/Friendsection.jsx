@@ -8,11 +8,11 @@ const Friendsection = () => {
   const Friends=use(FriendsData);
   console.log(Friends)
     return (
-        <section className="max-w-277.5 mx-auto">
+        <section className="max-w-277.5 mx-auto px-4">
            <div>
              <h2 className="mt-5 font-semibold text-2xl mb-4">Your Friends</h2>
            </div>
-       <div className="grid grid-cols-4 gap-4 gap-y-5 mb-14">
+       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 gap-y-5 mb-14">
          {Friends.map(friend=>
         <Link to={`/friends/${friend.id}`} key={friend.id}>
          <div className="shadow-md flex flex-col items-center justify-center p-4 rounded-lg space-y-3 bg-white">

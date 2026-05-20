@@ -13,9 +13,9 @@ const Timeline = () => {
   };
    const filtered = filter === "All" ? entries : entries.filter(e => e.type === filter);
     return (
-       <section className="max-w-277.5 mx-auto mt-10 mb-20">
+       <section className="max-w-277.5 mx-auto mt-10 mb-20 px-4">
          <h2 className="text-3xl font-bold mb-6">Timeline</h2>
-      <select className="w-86.75 rounded-lg px-4 py-2 mb-6 text-sm text-gray-600 bg-white" value={filter} onChange={(e) => setFilter(e.target.value)}>
+      <select className="w-full md:w-86.75 rounded-lg px-4 py-2 mb-6 text-sm text-gray-600 bg-white" value={filter} onChange={(e) => setFilter(e.target.value)}>
         <option value="All">Filter timeline</option>
         <option value="Call">Call</option>
         <option value="Text">Text</option>
