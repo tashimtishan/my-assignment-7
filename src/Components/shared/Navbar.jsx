@@ -10,7 +10,7 @@ const Navbar = () => {
     const [menuOpen,setMenuOpen]=useState(false);
     return (
        <nav className="shadow">
-       <div className="flex justify-between container mx-auto py-4 items-center ">
+       <div className="flex justify-between container mx-auto py-4 px-4 items-center ">
          <h1><span className="font-bold text-2xl">Keen</span><span className="font-bold text-xl text-[#244D3F]">Keeper</span></h1>
 
         <ul className="hidden md:flex gap-5">
