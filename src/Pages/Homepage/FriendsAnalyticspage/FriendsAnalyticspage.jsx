@@ -9,9 +9,9 @@ const FriendsAnalyticspage = () => {
       const videoCount = entries.filter(e => e.type === "Video").length;
 
        const data = [
-      {name:"Text",value:textCount||1,fill:"#7C3AED" },
-      { name: "Call", value: callCount||1,fill: "#244D3F" },
-      { name: "Video", value: videoCount| 1, fill: "#4ADE80" },
+      {name:"Text",value:textCount||1,fill:"#7C3AED"},
+      { name: "Call", value: callCount||1,fill: "#244D3F"},
+      { name: "Video", value: videoCount||1,fill:"#4ADE80"},
      ];
     return (
       <section className="max-w-277.5 mx-auto mt-10 mb-20">
