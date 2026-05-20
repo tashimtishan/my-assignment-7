@@ -1,9 +1,9 @@
-KeenKeeper
+KeenKeeper:
 
 We all have people in our lives we care about but somehow keep losing touch with. KeenKeeper is a personal friend relationship tracker that helps you stay on top of that. You can see all your friends in one place, track when you last contacted them, log interactions, and get a clear picture of whos getting attention and whos being neglected. Built this as part of a front-end assignment but honestly its a pretty useful concept.
 
 
-Technologies Used
+Technologies Used:
 
 React.js
 React Router DOM
@@ -12,7 +12,7 @@ Recharts
 React Toastify
 Vite
 
-Key Features
+Key Features:
 
 1.friend Cards with status: All your friends are displayed as cards showing their photo, tags, days since last contact, and a color coded status(on-track, almost due, or overdue).Makes it really easy to see at a glance whos been ignored for too long.
 

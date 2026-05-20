@@ -14,6 +14,7 @@ const FriendsAnalyticspage = () => {
       { name: "Video", value: videoCount||1,fill:"#4ADE80"},
      ];
     return (
+      // main section
       <section className="max-w-277.5 mx-auto mt-10 mb-20 px-4">
       <h2 className="text-4xl font-bold mb-6">Friendship Analytics</h2>
       <div className="bg-white shadow-md rounded-md p-6">
