@@ -11,6 +11,7 @@ import FriendsAnalyticspage from './Pages/Homepage/FriendsAnalyticspage/FriendsA
 import { TimelineProvider } from './Components/shared/Timelinecontext';
 import { ToastContainer} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Notfound from './Pages/Homepage/Notfound';
 const rounter=createBrowserRouter([
   {
     path:"/",
@@ -32,6 +33,10 @@ const rounter=createBrowserRouter([
       path:"/FriendsAnalyticspage",
       element:<FriendsAnalyticspage></FriendsAnalyticspage>
     },
+    {
+  path: "*",
+  element: <Notfound/>
+   }
   ]
   },
 ])

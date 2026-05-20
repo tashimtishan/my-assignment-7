@@ -38,16 +38,16 @@ const FriendsDetailsPage = () => {
               </div>
             </div>
             <div className="col-span-1 md:col-span-2">
-              <div className="grid grid-cols-3 gap-4">
-                <div className="shadow-md bg-white rounded-md p-6 text-center">
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 items-stretch">
+                <div className="shadow-md bg-white rounded-md p-6 text-center  flex flex-col justify-center">
                <p className="text-2xl font-bold text-[#244D3F]">{friend.days_since_contact}</p>
                <p className="text-[#64748B]">Days Since Contact</p>
                </div>
-                 <div className="shadow-md bg-white rounded-md p-6 text-center">
+                 <div className="shadow-md bg-white rounded-md p-6 text-center  flex flex-col justify-center">
                  <p className="text-2xl font-bold text-[#244D3F]">{friend.goal}</p>
                  <p className="text-[#64748B]">Goal (Days)</p>
                  </div>
-                  <div className="shadow-md bg-white rounded-md p-6 text-center">
+                  <div className="shadow-md bg-white rounded-md p-6 text-center  flex flex-col justify-center">
                   <p className="text-2xl font-bold text-[#244D3F]">{friend.next_due_date}</p>
                   <p className="text-[#64748B]">Next Due</p>
                   </div>

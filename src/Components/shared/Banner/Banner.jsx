@@ -8,7 +8,7 @@ const Banner = () => {
             <p className="text-[#64748B] mb-6">Your personal shelf of meaningful connections. Browse, tend, and nurture the <br /> relationships that matter most.</p>
             <button className="btn bg-[#244D3F] text-white mb-6"><FaPlus className="relative top-px" /><span>Add a Friend</span></button>
             </div>
-            <div className="grid grid-cols-2 md:grid-cols-4 parent-div items-center justify-center gap-5">
+            <div className="grid grid-cols-2 md:grid-cols-4 mb-6 items-stretch justify-center gap-5">
             <div className="p-4 md:p-8 shadow-lg rounded-lg text-center">
             <span className="text-[#244D3F] font-semibold text-3xl">8</span>
             <p className="text-[#64748B]">Total Friends</p>
