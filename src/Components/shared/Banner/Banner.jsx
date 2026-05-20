@@ -9,21 +9,21 @@ const Banner = () => {
             <button className="btn bg-[#244D3F] text-white mb-6"><FaPlus className="relative top-px" /><span>Add a Friend</span></button>
             </div>
             <div className="grid grid-cols-2 md:grid-cols-4 parent-div items-center justify-center gap-5">
-            <div className="p-8 shadow-lg rounded-lg text-center">
+            <div className="p-4 md:p-8 shadow-lg rounded-lg text-center">
             <span className="text-[#244D3F] font-semibold text-3xl">8</span>
             <p className="text-[#64748B]">Total Friends</p>
             </div>
-            <div className="p-8 shadow-lg rounded-lg text-center">
+            <div className="p-4 md:p-8 shadow-lg rounded-lg text-center">
             <span className="text-[#244D3F] font-semibold text-3xl">3</span>
             <p className="text-[#64748B]">On Track</p>
             </div>
-            <div className="p-8 shadow-lg rounded-lg text-center">
+            <div className="p-4 md:p-8 shadow-lg rounded-lg text-center">
             <span className="text-[#244D3F] font-semibold text-3xl">5</span>
             <p className="text-[#64748B]">Need Attention</p>
             </div>
-            <div className="p-8 shadow-lg rounded-lg text-center flex flex-col justify-center">
+            <div className="p-4 md:p-8 shadow-lg rounded-lg text-center">
             <span className="text-[#244D3F] font-semibold text-3xl">12</span>
-            <p className="text-[#64748B] whitespace-nowrap">Interactions This Month</p>
+            <p className="text-[#64748B]">Interactions This Month</p>
             </div>
             </div>
             <hr className="mt-8 text-[#E9E9E9]"/>
