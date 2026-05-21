@@ -3,13 +3,14 @@ import { IoIosCall } from "react-icons/io";
 import { FaMessage } from "react-icons/fa6";
 import { IoMdVideocam } from "react-icons/io";
 import { useState } from "react";
+// function here
 const Timeline = () => {
-     const { entries } = useTimeline();
+     const {entries} = useTimeline();
       const [filter, setFilter] = useState("All");
        const getIcon = (type) => {
-    if (type === "Call") return <IoIosCall className="text-xl text-gray-600" />;
-    if (type === "Text") return <FaMessage className="text-xl text-gray-600" />;
-    if (type === "Video") return <IoMdVideocam className="text-xl text-gray-600" />;
+    if (type === "Call") return <IoIosCall className="text-xl text-gray-600"/>;
+    if (type === "Text") return <FaMessage className="text-xl text-gray-600"/>;
+    if (type === "Video") return <IoMdVideocam className="text-xl text-gray-600"/>;
   };
    const filtered = filter === "All" ? entries : entries.filter(e => e.type === filter);
     return (

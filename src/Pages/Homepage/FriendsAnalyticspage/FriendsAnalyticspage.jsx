@@ -4,14 +4,14 @@ import { useTimeline } from "../../../Components/shared/Timelinecontext";
 const FriendsAnalyticspage = () => {
       const { entries } = useTimeline();
 
-      const callCount = entries.filter(e => e.type === "Call").length;
-      const textCount = entries.filter(e => e.type === "Text").length;
-      const videoCount = entries.filter(e => e.type === "Video").length;
+      const callCount=entries.filter(e => e.type === "Call").length;
+      const textCount=entries.filter(e => e.type === "Text").length;
+      const videoCount=entries.filter(e => e.type === "Video").length;
 
        const data = [
       {name:"Text",value:textCount||1,fill:"#7C3AED"},
-      { name: "Call", value: callCount||1,fill: "#244D3F"},
-      { name: "Video", value: videoCount||1,fill:"#4ADE80"},
+      { name:"Call", value: callCount||1,fill: "#244D3F"},
+      { name:"Video", value: videoCount||1,fill:"#4ADE80"},
      ];
     return (
       // main section
